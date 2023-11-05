@@ -6,7 +6,7 @@ import Body from "./components/layout/Body"
 
 const App = () => {
   return (
-    <div className="ml-5">
+    <div>
         <TopBar/>
         <div className="flex">
             <SideNav/>

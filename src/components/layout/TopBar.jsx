@@ -1,8 +1,9 @@
 // import Logo from './images/sp-store-logo.png'
 
 const TopBar = () => {
+
     return(
-        <div className="w-screen flex justify-between pt-5 pr-20 fixed bg-white z-20">
+        <div className="w-screen flex justify-between pt-5 pl-5 pr-20 fixed bg-white z-20">
             <div className="flex flex-col-1 place-items-center mb-5">
                 <img src="./images/sp-store-logo.png" alt="SP Store Logo" srcset="" width={35} height={25} />
                 <div className="flex mr-[80px] text-2xl">
@@ -10,11 +11,14 @@ const TopBar = () => {
                     <p className="text-bright-blue">STORE</p>
                 </div>
                 <form>
-                    <input 
-                        type="text" 
-                        placeholder="Search..." 
-                        className="bg-ice-blue rounded-full pl-3 py-[6px] w-[350px]"
-                    />
+                    <div className="bg-ice-blue rounded-full flex place-items-center pl-4 w-fit">
+                        <img src="./icons/search-icon.svg" alt="Search Icon"  className="w-[15px]"/>
+                        <input 
+                            type="text" 
+                            placeholder="Search..." 
+                            className="bg-ice-blue rounded-full pl-3 py-[6px] w-[350px] focus:outline-none placeholder:text-placeholder-text-color"
+                        />
+                    </div>
                 </form>
             </div>
             <div className="flex -mt-1">

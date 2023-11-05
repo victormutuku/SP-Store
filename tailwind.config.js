@@ -17,6 +17,8 @@ module.exports = {
         'items-sold-bg-color' : '#FDECEB',
         'gross-sale-bg-color' : '#EDF7F4',
         'refunds-bg-color' : '#EFF0FD',
+        'placeholder-text-color' : '#2F465E',
+        'deactivated-nav-text-color' : '#55677B',
         }
     },
   },

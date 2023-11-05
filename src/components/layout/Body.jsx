@@ -4,7 +4,7 @@ import MainBodyCards from "../MainBodyCards"
 
 const Body = () => {
     return(
-        <section className="w-full h-full bg-ice-blue mt-[76px] pb-10 ml-[220px]">
+        <section className="w-full h-full bg-ice-blue mt-[76px] pb-10 ml-[220px] pl-5">
            <GreetingsBar/>
            <div className="flex">
             <LeftSideSummaryCards/>
