@@ -6,7 +6,7 @@ import WeeklySalesCard from "./main-body-cards/WeeklySalesCard"
 
 const MainBodyCards = () => {
     return(
-        <div>
+        <div className="relative">
             <div className="flex mb-5">
                 <CircExpectedEarningsCard/>
                 <BarExpectedProfitsCard/>
@@ -17,6 +17,7 @@ const MainBodyCards = () => {
                 <CustomersCard/>
             </div>
             <WeeklySalesCard/>
+            <p class="absolute -bottom-10 pb-2 text-sm">Designed by <a href="https://www.behance.net/Designer-tanbir" class="text-bright-blue underline">Tanbir Ahmed</a></p>
         </div>
     )
 }
